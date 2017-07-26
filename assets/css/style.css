@@ -1,0 +1,317 @@
+
+
+body {
+    display: inline;
+    flex-wrap: wrap;
+}
+.homepage-menu {
+	list-style-type: none;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.content {
+	position: relative;
+	left: 200px;
+    display: flex;
+    justify-content: left;
+    width: 960px;
+	height: 600px;
+	margin-top: 20px;
+}
+
+li {
+	float: right;
+	position: relative;
+	right: 360px;
+	top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+	word-spacing: 10px;
+    position: relative;
+
+}
+
+#about_link,
+#contact_link,
+#portfolio_link {
+	color: grey;
+	text-decoration: none;
+}
+#portfolio_link {
+	border-left: solid lightgrey 1px;
+	border-right: solid lightgrey 1px;
+	padding: 0px 10px;
+
+}
+
+.portfolio-footer {
+	bottom: -450px
+}
+
+#about_link:hover {
+	color: purple;
+}
+#contact_link:hover {
+	color: purple;
+}
+#portfolio_link:hover {
+	color: purple;
+}
+
+
+
+h1 {
+	color: #4aaaa5;
+	font-size: 25px;
+	margin: 15px;
+}
+
+
+#h_image {
+	float: left;
+	padding: 20px 20px 0px 0px;
+	height: 175px;
+	width: 200px;
+}
+
+header {
+    align-self: flex-start;
+/*	position: relative;*/
+/*	top: 0px;*/
+	width: 100%;
+	background-color: #ffffff;
+	color: white;
+	font-size: 35px;
+	font-family: Georgia, Times, serif;
+	border-color: #999999;
+	height: 100px;
+    border-bottom-style: solid;
+
+
+}
+
+#hillary {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 0px 20px 0px 20px;
+	width: 200px;
+	position: relative;
+	left: 200px;
+	height: 100px;
+
+}
+
+body {
+    margin: 0px;
+    background-image: url("../images/cork-wallet.png");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #4aaaa5;
+
+}
+
+/*#about_me, */
+.pic-body,
+.pic-box
+/*#connect */{
+	float: left;
+}
+
+#about_me {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	height: 500px;
+	width: 590px;
+/*	margin: 25px 25px 25px 200px;*/
+	padding: 35px;
+	line-height: 200%;
+}
+
+#contact-section {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	height: 500px;
+	width: 590px;
+/*	margin: 25px 25px 25px 200px;*/
+	padding: 35px;
+	line-height: 200%;
+}
+
+.portfolio-body {
+	top: -50px;
+	height: 1200px; 
+	top: 100px;
+}
+
+.pic-body {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	height: 900px;
+	width: 590px;
+/*	margin: 25px 25px 25px 200px;*/
+	padding: 35px;
+	line-height: 200%;
+}
+.pic-box {
+	margin: 20px 21px 0px 0px;
+	width: 274px;
+	height: 260px;
+}
+
+.pics {
+/*	margin: 20px 20px 0px 0px;*/
+	width: 274px;
+	height: 220px;
+
+}
+
+.overlay {
+	position: relative;
+	bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	background-color: #4aaaa5;
+	width: 274px;
+	height: 65px;
+/*	margin: 20px;*/
+}
+
+
+
+#connect {
+
+	font-family: Georgia, Times, "Times New Roman", serif;
+	background-color: white;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	height: 170px;
+	width: 230px;
+	text-align: center;
+	padding: 20px;
+	margin-left: 26px;
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.connect-images {
+	height: 65px;
+	width: 65px;
+	border-radius: 8px;
+}
+
+
+.connect-images:hover {
+	height: 68px;
+	width: 68px;
+}
+
+form {
+	color: grey;
+/*	margin: 20px;*/
+	font-size: 18px;
+	line-height: 200%;
+	width: 99%;
+	height: 400px;
+}
+
+input {
+	width: 100%;
+	height: 25px;
+}
+
+.submit {
+	width: 90px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+textarea {
+	width: 100%;
+	height: 125px;
+	border-color: #999999;
+}
+
+footer {
+	-webkit-align-self: flex-end;
+    align-self: flex-end;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+	position: relative;
+	bottom: -150px;
+	clear: left;
+	text-align: center;
+	background-color: #666666;
+	color: white;
+	height: 100px;
+	border-color: #4aaaa5;
+	border-top-style: solid;
+    border-width: 10px;
+}
+
+@media screen and (max-width: 980px) {
+/*
+About page changes:*/
+
+	.content {width: 700px; height: 900px;left: 140px;}
+	#h_image {float: left; padding: 20px 0px 0px 0px; height: 300px; width: 403px;}
+
+	#about_me {	height: 900px; width: 590px;}
+	#hillary {left: 140px;}
+	li {right: 140px;}
+	.connect-images {height: 45px; width: 45px;}
+	.connect-images:hover {height: 50px; width: 50px;}
+
+/*portfolio page changes:*/
+
+	.pics {width: 402px; height: 270px;}
+	.overlay {width: 402px;}
+	.portfolio-body {height: 1500px; top: 100px;}
+	.pic-body {height: 1500px;}
+	.portfolio-content {height: 1500px;}
+	.portfolio-footer {bottom: -100px}
+
+/*contact page changes:*/
+
+	form {height: 450px;}
+	.contact-body {height: 500px;}
+	.contact-content {height: 500px;}
+	.contact-footer {bottom: -400px}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+}
+@media screen and (max-width: 640px) {
+	
+}
