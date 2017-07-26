@@ -18,17 +18,17 @@ body {
     justify-content: left;
     width: 960px;
 	height: 600px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 li {
 	float: right;
 	position: relative;
-	right: 360px;
+	right: 200px;
 	top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     padding: 5px;
 	word-spacing: 10px;
     position: relative;
@@ -283,10 +283,9 @@ About page changes:*/
 
 	.content {width: 700px; height: 900px;left: 140px;}
 	#h_image {float: left; padding: 20px 0px 0px 0px; height: 300px; width: 403px;}
-
 	#about_me {	height: 900px; width: 590px;}
 	#hillary {left: 140px;}
-	li {right: 140px;}
+	li {right: 100px;}
 	.connect-images {height: 45px; width: 45px;}
 	.connect-images:hover {height: 50px; width: 50px;}
 
@@ -294,7 +293,7 @@ About page changes:*/
 
 	.pics {width: 402px; height: 270px;}
 	.overlay {width: 402px;}
-	.portfolio-body {height: 1500px; top: 100px;}
+	.portfolio-body {height: 1500px;}
 	.pic-body {height: 1500px;}
 	.portfolio-content {height: 1500px;}
 	.portfolio-footer {bottom: -100px}
@@ -305,13 +304,42 @@ About page changes:*/
 	.contact-body {height: 500px;}
 	.contact-content {height: 500px;}
 	.contact-footer {bottom: -400px}
-
-
-
+}
 
 @media screen and (max-width: 768px) {
 	
+/*About page changes:*/
+	.content {display: flex; flex-direction: column; width: 768px; left: 0px; margin: 40px 20px 20px 20px}
+	#about_me {width: 658px;}
+	#h_image {padding: 20px 20px 20px 0px}
+	#connect {height: 170px; width: 688px; text-align: left; padding: 20px; margin: 50px 0px 0px 0px;}
+	footer {bottom: -100px;}
+	.image-box {display: flex; justify-content: left;}
+	.connect-images {height: 65px; width: 65px; padding: 7px;}
+	#hillary {left: 20px;}
+	.connect-images:hover {height: 68px; width: 68px;}
+
+/*contact page changes:*/
+	
+	#contact-section {width: 658px;}
+	.contact-footer {bottom: -355px;}
+	.pic-body {width: 658px;}
+
+/*portfolio page changes:*/
+
+	.pics {width: 310px; height: 200px;}
+	.pic-collection {height: 725px; width: 643px; display: flex; flex-wrap: wrap; align-content: space-around; justify-content: space-between;}
+	.pic-box {height: 200px;}
+	.overlay {width: 300px;}
+	.portfolio-body {height: 1500px;}
+	.pic-body {height: 786px; width: 658px;}
+	.portfolio-content {height: 1090px;}
+	.portfolio-footer {bottom: -50px}
+
 }
+
+
+
 @media screen and (max-width: 640px) {
 	
 }
