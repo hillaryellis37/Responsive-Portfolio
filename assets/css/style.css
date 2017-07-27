@@ -1,9 +1,16 @@
+
 body {
     display: inline;
     flex-wrap: wrap;
+    margin: 0px;
+    background-image: url("../images/cork-wallet.png");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #4aaaa5;
 }
 
-/*Start of < Header >*/
+
+/*>>>>>>>>			Start of < Header >*/
 header {
     display: flex;
     justify-content: space-between;
@@ -70,14 +77,16 @@ li {
 #portfolio_link:hover {
 	color: purple;
 }
-/*End of < Header >*/
+/*>>>>>>>>			End of < Header >*/
 
+
+
+/*>>>>>>>>			Start of  < About Me >*/
 h1 {
 	color: #4aaaa5;
 	font-size: 25px;
 	margin: 15px;
 }
-
 
 #h_image {
 	float: left;
@@ -85,7 +94,6 @@ h1 {
 	height: 175px;
 	width: 200px;
 }
-
 
 #hillary {
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -99,22 +107,10 @@ h1 {
 	position: relative;
 	left: 200px;
 	height: 100px;
-
 }
 
-body {
-    margin: 0px;
-    background-image: url("../images/cork-wallet.png");
-    background-color: #cccccc;
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: #4aaaa5;
-
-}
-
-/*#about_me, */
 .pic-body,
-.pic-box
-/*#connect */{
+.pic-box {
 	float: left;
 }
 
@@ -122,73 +118,17 @@ body {
 	background-color: #ffffff;
 	height: 500px;
 	width: 590px;
-/*	margin: 25px 25px 25px 200px;*/
 	padding: 35px;
 	line-height: 200%;
 	border-color: rgba(123, 123, 123, 0.21);
     border-style: groove;
     border-width: 1px;
 }
-
-#contact-section {
-	background-color: #ffffff;
-	border-color: rgba(123, 123, 123, 0.21);
-    border-style: groove;
-    border-width: 1px;
-	height: 500px;
-	width: 590px;
-/*	margin: 25px 25px 25px 200px;*/
-	padding: 35px;
-	line-height: 200%;
-}
-
-.portfolio-body {
-	top: -50px;
-	height: 1200px; 
-	top: 100px;
-}
-
-.pic-body {
-	background-color: #ffffff;
-	border-color: #dddddd;
-	border-style: solid;
-	border-width: 1px;
-	height: 900px;
-	width: 590px;
-/*	margin: 25px 25px 25px 200px;*/
-	padding: 35px;
-	line-height: 200%;
-}
-.pic-box {
-	margin: 20px 21px 0px 0px;
-	width: 274px;
-	height: 260px;
-}
-
-.pics {
-/*	margin: 20px 20px 0px 0px;*/
-	width: 274px;
-	height: 220px;
-
-}
-
-.overlay {
-	position: relative;
-	bottom: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: white;
-	font-size: 22px;
-	background-color: #4aaaa5;
-	width: 274px;
-	height: 65px;
-/*	margin: 20px;*/
-}
+/*>>>>>>>>			End of < About Me >*/
 
 
 
+/*>>>>>>>>			Start of  < Connect With Me Section >*/
 #connect {
 
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -215,10 +155,71 @@ body {
 	border-radius: 8px;
 }
 
-
 .connect-images:hover {
 	height: 68px;
 	width: 68px;
+}
+/*>>>>>>>>			End of < Contact Section >*/
+
+
+
+/*>>>>>>>>			Start of  < Portfolio Section >*/
+.portfolio-body {
+	top: -50px;
+	height: 1200px; 
+	top: 100px;
+}
+
+.pic-body {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	height: 900px;
+	width: 590px;
+	padding: 35px;
+	line-height: 200%;
+}
+
+.pic-box {
+	margin: 20px 21px 0px 0px;
+	width: 274px;
+	height: 260px;
+}
+
+.pics {
+	width: 274px;
+	height: 220px;
+
+}
+
+.overlay {
+	position: relative;
+	bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	background-color: #4aaaa5;
+	width: 274px;
+	height: 65px;
+}
+/*>>>>>>>>			End of < Portfolio Section>*/
+
+
+
+/*>>>>>>>>			Start of  < Contact Form Seciton >*/
+#contact-section {
+	background-color: #ffffff;
+	border-color: rgba(123, 123, 123, 0.21);
+    border-style: groove;
+    border-width: 1px;
+	height: 500px;
+	width: 590px;
+	padding: 35px;
+	line-height: 200%;
 }
 
 form {
@@ -249,7 +250,11 @@ textarea {
 	height: 125px;
 	border-color: #999999;
 }
+/*>>>>>>>>			End of < Contact Form Section>*/
 
+
+
+/*>>>>>>>>			Start of  < Footer Seciton >*/
 footer {
 	-webkit-align-self: flex-end;
     align-self: flex-end;
@@ -269,7 +274,10 @@ footer {
 	border-top-style: solid;
     border-width: 10px;
 }
+/*>>>>>>>>			End of  < Footer Seciton >*/
 
+
+/*>>>>>>>>			Start of  < Media Queries Seciton >*/
 @media screen and (max-width: 980px) {
 /*
 About page changes:*/
@@ -293,7 +301,6 @@ About page changes:*/
 	.portfolio-footer {bottom: -100px}
 
 /*contact page changes:*/
-
 	form {height: 450px;}
 	.contact-body {height: 500px;}
 	.contact-content {height: 500px;}
@@ -314,14 +321,12 @@ About page changes:*/
 	#hillary {left: 20px;}
 	.connect-images:hover {height: 68px; width: 68px;}
 
-/*contact page changes:*/
-	
+/*contact page changes:*/	
 	#contact-section {width: 658px;}
 	.contact-footer {bottom: -355px;}
 	.pic-body {width: 658px;}
 
 /*portfolio page changes:*/
-
 	.pics {width: 310px; height: 200px;}
 	.pic-collection {height: 725px; width: 643px; display: flex; flex-wrap: wrap; align-content: space-around; justify-content: space-between;}
 	.pic-box {height: 200px;}
@@ -330,7 +335,6 @@ About page changes:*/
 	.pic-body {height: 786px; width: 658px;}
 	.portfolio-content {height: 1090px;}
 	.portfolio-footer {bottom: -50px}
-
 }
 
 
@@ -338,7 +342,6 @@ About page changes:*/
 @media screen and (max-width: 640px) {
 
 /*About Me page change: 	*/
-
 	body {width:640px;}
 	header{height: 160px; display: flex; flex-direction: column; }
 	.homepage-menu {align-self: center; display: flex; justify-content: space-around; align-items: center; height: 75px; width: 500px;}
@@ -351,8 +354,7 @@ About page changes:*/
 /*Contact page change: 	*/
 	#contact-section {width: 560px; padding: 20px;}
 
-	/*portfolio page changes:*/
-
+/*portfolio page changes:*/
 	.pic-body {width: 560px; padding: 20px;}
 	.pics, .pic-box {width: 558px; height: 400px;}
 	.pic-collection {width: 560px; height: 1400px; display: flex; align-content: stretch ;}
@@ -360,8 +362,4 @@ About page changes:*/
 	.portfolio-content {height: 2500px;}
 	.pic-body {height: 2200px; width: 558px;}
 	.overlay {width: 558px;}
-
- 
-}
-	
 }
