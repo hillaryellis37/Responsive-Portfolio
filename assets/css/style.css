@@ -343,13 +343,14 @@ About page changes:*/
 
 /*About Me page change: 	*/
 	body {width:640px;}
-	header{position: static; height:7%; width: 100%; display: flex; flex-direction: column; }
-	.homepage-menu {align-self: center; display: flex; justify-content: space-around; align-items: center; height: 75px; width: 500px;}
-	#hillary {display: flex; align-self: center; width: 100%; left:0px; padding: 0px;}
-	#portfolio_link {padding: 0px 60px;}
-	#about_me {width: 73%; padding: 20px;}
+	.content {height: 100%;}
+	header{position: static; height:15%; width: 100%; display: flex; flex-direction: column; }
+	.homepage-menu {align-self: center; display: flex; justify-content: space-around; align-items: center; height: 30%; width: 80%;}
+	#hillary {display: flex; align-self: center; width: 100%; left:0%; padding: 0%;}
+	#portfolio_link {padding: 0px 45%;}
+	#about_me {width: 73%; padding: 2.5%;}
 	#connect {width: 73%;}
-	footer {bottom: -150px}
+	footer {bottom: 0%;}
 
 /*Contact page change: 	*/
 	#contact-section {width: 560px; padding: 20px;}
